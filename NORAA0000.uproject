@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{357A5ABA-4F73-AB25-51D8-A394C2C87011}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "NORAA0000",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameLiftServerSDK",
+			"Enabled": true
+		},
+		{
+			"Name": "BlockoutToolsPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d337b97aca8947a893526964e179acfd"
+		},
+		{
+			"Name": "EasyBallistics",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/bbecde0f66914263b57fd2af5a0c7ffe"
+		},
+		{
+			"Name": "PowerIK",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/power-ik"
+		},
+		{
+			"Name": "VivoxCore",
+			"Enabled": true
+		},
+		{
+			"Name": "VivoxVoiceChat",
+			"Enabled": true
+		},
+		{
+			"Name": "AESHandlerComponent",
+			"Enabled": true
+		}
+	]
+}
